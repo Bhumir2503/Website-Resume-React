@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #011627;
+}
+
+.navbar .navbar-brand{
+    font-weight: 700;
+    color: #011627;
+    background-color: whitesmoke;
+}
+.nav-pills{
+    background-color: whitesmoke;
+}
+
+.nav-item{
+    background-color: whitesmoke;
+    color: whitesmoke;
+}
+.nav-item .nav-link{
+    font-weight: 500;
+    color: #011627;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.nav-item .nav-link:hover{
+    transition: .5s;
+    color: #A9CEF4;
+        border-color: whitesmoke;
+}

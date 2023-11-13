@@ -1,0 +1,63 @@
+.projectcard{
+    width: 30rem;
+    
+}
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.projects{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.projectimage{
+    height: 20rem
+}
+
+@media screen and (max-width:1440px) {
+    .projectcard {
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .projectcard {
+        width: 18rem;
+    }
+    .projectimage{
+        height: 15rem
+    }
+}
+@media screen and (max-width:900px){
+    .projectcard {
+        width: 25rem;
+        margin-bottom: 5%;
+    }
+    .projects{
+        display: block;
+    } 
+}
+
+@media screen and (max-width:425px) {
+    .projectcard {
+        width: 15rem;
+    }
+    .projectimage{
+        height: 10rem
+    }
+}
+
+@media screen and (min-width:2560px) {
+    .projectcard {
+        width: 75%;
+    }
+    .projectimage {
+        height: 20rem
+    }
+}

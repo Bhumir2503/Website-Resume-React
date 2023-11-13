@@ -1,0 +1,158 @@
+.home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.man {
+    position: absolute;
+    position: static;
+    height: 1000px;
+}
+
+.home-content {
+    max-width: 1500px;
+}
+
+.home-content h1 {
+    font-size: 75px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.home-content h3 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #A9CEF4;
+}
+
+.home-content p {
+    font-size: 35px;
+    margin: 20px 0px 40px;
+
+}
+
+.info-button a.buttonsytle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 125px;
+    font-size: 35px;
+    background: #A9CEF4;
+    width: 250px;
+    height: 100px;
+    border: 1px solid;
+    text-decoration: none;
+    color: #011627;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-right: 50px;
+
+}
+
+.info-button a:hover {
+    background: #950952;
+}
+
+.iconlogo {
+    margin-top: 50px;
+
+}
+
+.iconlogo a.Icon {
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.iconlogo a.Icon img {
+    display: inline-flex;
+    height: 125px;
+    vertical-align: -100%;
+}
+
+
+
+@media only screen and (max-width: 2520px) {
+    .man {
+        height: 700px;
+    }
+}
+
+
+@media only screen and (max-width: 1900px) {
+
+    .man {
+        height: 600px;
+    }
+
+    .home-content h1 {
+        font-size: 60px;
+    }
+
+    .home-content h3 {
+        font-size: 45px;
+    }
+
+    .home-content p {
+        font-size: 30px;
+    }
+
+    .info-button a.buttonsytle {
+        width: 150px;
+        height: 75px;
+        font-size: 30px;
+    }
+
+    .iconlogo a.Icon img {
+        height: 75px;
+    }
+}
+
+@media only screen and (max-width: 13000px) {
+    .man {
+        height: 400px;
+    }
+    .home-content h1 {
+        font-size: 50px;
+    }
+
+    .home-content h3 {
+        font-size: 35px;
+    }
+
+    .home-content p {
+        font-size: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .man {
+        display: none;
+    }
+
+    .home-content{
+        text-align: center;
+
+    }
+    .home-content h1{
+        text-align: center;
+    }
+
+    .info-button{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .buttonsytle{
+        margin-bottom: 25px;
+    }
+    
+} 
