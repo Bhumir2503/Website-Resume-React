@@ -12,7 +12,7 @@ function App() {
   let project_paragraph = ["Contributed to the creation of a user interface compatible with Linux and Windows platforms. Implemented Prim's Algorithm for maze generation, offering a variety of maze designs. Additionally, integrated Djikstra's, Depth First Search, and Breath First Search algorithms to provide effective maze-solving capabilities.",
   "Independently designed and deployed a responsive website to showcase my resume, effectively demonstrating proficiency in HTML and CSS for page formatting and styling. Utilized CSS Flexbox and JavaScript to create a dynamic and interactive web experience, incorporating JavaScript actions triggered by user interactions.",
   "Created an interactive and user-friendly Sudoku game with the ability to generate unique puzzles and solve them. Developed the graphical user interface using Pygame, providing an immersive gaming experience. Implemented algorithms for puzzle generation and solving, showcasing strong problem-solving and game development skills."];
-  let project_link = ["https://github.com/Bhumir2503/Maze-Gen-Solver","https://github.com/Bhumir2503/Website-Resume","https://github.com/Bhumir2503/Sudoku"];
+  let project_link = ["https://github.com/Bhumir2503/Maze-Gen-Solver","https://github.com/Bhumir2503/Website-Resume-React","https://github.com/Bhumir2503/Sudoku"];
   
   
   return (
